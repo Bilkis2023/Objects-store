@@ -43,12 +43,12 @@ signUpButton.addEventListener("click", function (event) {
 
         // get most recent submission:
         var lastUser = localStorage.getItem("user");
-
         userFirstNameSpan.textContent = lastUser.firstName;
         userLastNameSpan.textContent = lastUser.lastName;
         userEmailSpan.textContent = lastUser.email;
         userPasswordSpan.textContent = lastUser.password;
     }
 });
+
 
 
