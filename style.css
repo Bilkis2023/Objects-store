@@ -1,63 +1,88 @@
 *,
-*::before
-*::after{
+*::before *::after {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
 }
-h2{
+
+h2 {
     font-size: 3em;
     margin: 0;
     margin-top: 0.45px;
-    margin-bottom:0.45px;
-}
-button{
-     background-color: #c95f5f;
-     border-radius: 8px;
-     color: #fafafa;
-     cursor: pointer;
-     font-size: 1.2em;
-     letter-spacing: 0.21px;
-     line-height: 16px;
-     max-width: 255px;
-     text-align: center;
-     padding: 20px 52px;
-     transition-duration: 0.15s;
-     transition-property: background-color;
-     transition-timing-function: linear;
-     margin-top: 0.6em;
-     float: right;
+    margin-bottom: 0.45px;
 }
 
-button:hover{
-    background-color:#2e9904;
+button {
+    background-color: #c95f5f;
+    border-radius: 8px;
+    color: #fafafa;
+    cursor: pointer;
+    font-size: 1.2em;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    text-align: center;
+    padding: 20px 52px;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 0.6em;
+    float: right;
 }
+
+button:hover {
+    background-color: #2e9904;
+}
+
 .input-group {
-     margin-top: 10px;
-     margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-label{
-    color:#476939;
+
+label {
+    color: #476939;
 }
-input{
-    background-color:#fafafa;
+
+input {
+    background-color: #fafafa;
     border-radius: 5px;
     border-width: 1px;
-    color:aqua;
+    color: aqua;
     font-size: 1em;
     height: 45px;
     line-height: 20px;
-    margin:0px;
+    margin: 0px;
     margin-top: 10px;
-    max-width:100%;
+    max-width: 100%;
     padding: 8px 8px 8px 8px;
     transition-delay: 0s, 0s;
-    transition-duration: 0.2s, 0.2s ;
+    transition-duration: 0.2s, 0.2s;
     transition-property: background-color, color;
     transition-timing-function: ease, ease;
     vertical-align: middle;
     width: 100%;
 }
+
+input:hover {
+    background-color: #88e2f1;
+}
+
+.card {
+    background-color: #faebd7;
+    border: 1px solid #c95f5f;
+    border-radius: 8px;
+    box-shadow: rgba(99, 108, 96, 0.3) 0 1px 2px 0,
+        rgba(58, 75, 53, 0.3) 0 2px 3px 1px;
+    margin: 2%;
+    margin-top: 80;
+    padding: 20px;
+    width: 46%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+
+}
+
