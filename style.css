@@ -86,3 +86,19 @@ input:hover {
 
 }
 
+.card::after{
+    content:" ";
+    display:block;
+    clear: both;
+}
+
+#msg.success,
+#msg.error{
+    visibility:visible;
+}
+#msg.success{
+    color:#2e9904;
+}
+#msg.error{
+    color:#d12020;
+}
